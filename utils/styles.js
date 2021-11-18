@@ -28,6 +28,10 @@ const useStyles = makeStyles({
     padding: '50px',
     backgroundColor: 'hsl(38 47% 75%);',
   },
+  section: {
+    marginTop: '10px',
+    marginBottom: '10px',
+  }
 });
 
 export default useStyles

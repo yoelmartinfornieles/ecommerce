@@ -3,7 +3,7 @@ const data = {
     {
       name: 'THE SANDMAN: OVERTURE',
       slug: 'the-sandman-overture',
-      images: 'images/sandman.jpg',
+      images: '/images/sandman.jpeg',
       category: 'Graphic Novel',
       price: 19.99,
       editor: 'Vertigo',
@@ -17,7 +17,7 @@ const data = {
     {
       name: 'HARLEY QUINN #30',
       slug: 'harley-quinnharley30',
-      images: 'images/quinn.jpeg',
+      images: '/images/quinn.jpeg',
       category: 'Comic-book',
       price: 3.99,
       editor: 'DCcomics',
@@ -29,9 +29,23 @@ const data = {
         'As Harley’s monthly series comes to an end, the world prepares for twice as much Harley when her new series debuts in August! And you’d better believe Harley’s burning the place down on the way out the door… FINAL ISSUE...you know, for now',
     },
     {
+      name: 'DEADPOOL & TMFM #5',
+      slug: 'deadpool-tmfm5',
+      images: '/images/deadpool.jpeg',
+      category: 'Comic-book',
+      price: 0.99,
+      editor: 'MARVEL',
+      authors: 'Cullen Bunn, Iban Coello',
+      rating: 3.6,
+      numReviews: 1,
+      countInStock: 70,
+      description:
+        'A new team means new rules! It`s now Domino`s Mercs for Money and she`s in charge! Sorry, Wade!',
+    },
+    {
       name: 'ABSOLUTE PREACHER VOL. 1',
       slug: 'absolute-preacher-vol-1',
-      images: 'images/preacher.jpeg',
+      images: '/images/preacher.jpeg',
       category: 'Graphic Novel',
       price: 150.0,
       editor: 'Vertigo',
@@ -45,7 +59,7 @@ const data = {
     {
       name: 'HELLBLAZER BY GARTH ENNIS',
       slug: 'hellblazer-by-garth-ennis',
-      images: 'images/hellblazer.jpeg',
+      images: '/images/hellblazer.png',
       category: 'Graphic Novel',
       price: 150.0,
       editor: 'Vertigo',
@@ -59,7 +73,7 @@ const data = {
     {
       name: 'THE PLANETARY OMNIBUS',
       slug: 'the-planetary-omnibus',
-      images: 'images/planetary.jpeg',
+      images: '/images/planetary.jpeg',
       category: 'Graphic Novel',
       price: 75.0,
       editor: 'WildStorm',
@@ -73,7 +87,7 @@ const data = {
     {
       name: 'THE BOYS #3',
       slug: 'the-boys3',
-      images: 'images/theboys.jpg',
+      images: '/images/theboys.jpg',
       category: 'Comic-book',
       price: 2.99,
       editor: 'WildStorm',
@@ -85,9 +99,23 @@ const data = {
         'The dark new series by Garth Ennis and Darick Robertson heats up as Wee Hughie gets his first taste of action with the Boys when Butcher throws him into the deep end. Meanwhile, meet the planet`s mightiest heroes, The Seven, and the young superheroine who would join them.',
     },
     {
+      name: 'HIT MONKEY #1',
+      slug: 'hit-monkey-1',
+      images: '/images/monkey.jpeg',
+      category: 'Comic-book',
+      price: 1.99,
+      editor: 'MARVEL',
+      authors: 'Daniel Way, Dalibor Talajic',
+      rating: 3.3,
+      numReviews: 2,
+      countInStock: 7,
+      description:
+        '"The Legend of Hit-Monkey" A troubled soul, set upon a path of vengeance he does not understand. An assassin without equal, trained in the most secret of killing techniques. A monkey,with a gun. Bear witness as the legend is born. Hit-Monkey.',
+    },
+    {
       name: 'BATMAN: DARK KNIGHT RETURNS',
       slug: 'batman-dark-knight-returns',
-      images: 'images/batman.jpg',
+      images: '/images/batman.jpeg',
       category: 'Graphic Novel',
       price: 34.99,
       editor: 'DCcomics',
@@ -101,7 +129,7 @@ const data = {
     {
       name: 'CHAS - THE KNOWLEDGE #4',
       slug: 'chas-the-knowledge4',
-      images: 'images/chas.jpeg',
+      images: '/images/chas.jpeg',
       category: 'Comic-book',
       price: 2.99,
       editor: 'Vertigo',
@@ -115,7 +143,7 @@ const data = {
     {
       name: 'SUPERMAN #37',
       slug: 'superman37',
-      images: 'images/superman.jpg',
+      images: '/images/superman.jpeg',
       category: 'Comic-book',
       price: 3.99,
       editor: 'DCcomics',

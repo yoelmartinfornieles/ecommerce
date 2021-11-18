@@ -5,13 +5,14 @@ import { AppBar } from '@material-ui/core';
 import { Toolbar, Typography, Container, Link } from '@material-ui/core';
 import useStyles from '../utils/styles';
 
-export default function Layout({ children }) {
+export default function Layout({ title, description, children }) {
   const classes = useStyles();
   return (
     <>
       <div>
         <Head>
-          <title>eCommerce</title>
+          <title>{title? `${title} - theSTORYshop` : `theSTORYshop`}</title>
+          {description && <meta name="description" content={description}> </meta>}
         </Head>
         <AppBar className={classes.navbar} position="static">
           <Toolbar>
