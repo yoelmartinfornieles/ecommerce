@@ -16,7 +16,7 @@ import {
 import useStyles from '../../utils/styles';
 
 export default function ProductScreen() {
-  const classes = useStyles();
+  const classes = useStyles(); 
   const router = useRouter();
   const { slug } = router.query;
   const product = data.products.find((p) => p.slug === slug);
@@ -45,7 +45,7 @@ export default function ProductScreen() {
         <Grid item xs={12} sm={6} md={3}>
           <List>
             <ListItem>
-              <Typography component='h1'>
+              <Typography component="h1" variant="h1">
                 {product.name}
               </Typography>
             </ListItem>
