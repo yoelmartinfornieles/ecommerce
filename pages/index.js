@@ -14,10 +14,9 @@ import NextLink from 'next/link';
 
 export default function Home() {
   return (
-    <>
       <Layout>
         <div>
-          <h1>Products</h1>
+          <Typography variant="h2">Products</Typography>
           <Grid container spacing={3}>
             {data.products.map((product) => (
               <Grid item xs={12} sm={6} md={3} key={product.name}>
@@ -47,6 +46,5 @@ export default function Home() {
           </Grid>
         </div>
       </Layout>
-    </>
   );
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import Head from 'next/head'
 import NextLink from 'next/link';
 import { AppBar } from '@material-ui/core';
@@ -12,8 +12,11 @@ import {
   createMuiTheme
 } from '@material-ui/core';
 import useStyles from '../utils/styles';
+import {Store} from '../utils/Store';
 
 export default function Layout({ title, description, children }) {
+  const {state, dispatch} = useContext (Store)
+  const {darkMode} = state
   const theme = createMuiTheme({
     typography: {
       h1: { fontSize: '1.6rem', fontWeight: 450, margin: '1rem 0' },
@@ -21,7 +24,7 @@ export default function Layout({ title, description, children }) {
       bodi1: { fontWeight: 'normal'},
     },
     palette: {
-      type: 'light',
+      type: darkMode ? 'dark' : 'light',
       primary: {
           main: '#a9b665',
           secondary: '#e78a5e',
@@ -30,7 +33,7 @@ export default function Layout({ title, description, children }) {
   });
   const classes = useStyles();
   return (
-    <>
+    
       <div>
         <Head>
           <title>{title ? `${title} - theSTORYshop` : `theSTORYshop`}</title>
@@ -55,6 +58,6 @@ export default function Layout({ title, description, children }) {
         <footer className={classes.footer}>All Rights Reserved</footer>
         </ThemeProvider>
       </div>
-    </>
+    
   );
 }
