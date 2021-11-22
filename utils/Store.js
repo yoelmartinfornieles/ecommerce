@@ -1,9 +1,10 @@
-import {createContext, useReducer} from 'react';
+import Cookies from 'js-cookie';
+import { createContext, useReducer } from 'react';
 
-export const Store = createContext ();	
+export const Store = createContext();
 const initialState = {
-	darkMode: true
-}
+  darkMode: Cookies.get('darkMode') === 'ON' ? true : false,
+};
 
 function reducer(state, action) {
   switch (action.type) {
@@ -16,8 +17,8 @@ function reducer(state, action) {
   }
 }
 
-export function StoreProvider (props) {
-	const [state, dispatch] = useReducer (reducer, initialState);
-	const value = {state, dispatch};
-	return <Store.Provider value={value}>{props.children}</Store.Provider>;
+export function StoreProvider(props) {
+  const [state, dispatch] = useReducer(reducer, initialState);
+  const value = { state, dispatch };
+  return <Store.Provider value={value}>{props.children}</Store.Provider>;
 }

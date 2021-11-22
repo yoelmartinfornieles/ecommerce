@@ -5,12 +5,13 @@ const useStyles = makeStyles({
     backgroundColor: '#e78a4e',
     width: '100%',
     '& a': {
-      color: 'hsl(20 3% 19%)',
-      margin: 0,
-      marginLeft: '5%',
-      fontWeight: 'bold',
-      fontSize: 32,
+      fontSize: '1.6rem',
+      color: '#ffffff',
+      marginLeft: 10,
     },
+  },
+  grow: {
+    flexGrow: 1,
   },
   brand: {
     fontWeight: 'bold',
@@ -21,7 +22,6 @@ const useStyles = makeStyles({
     minWidth: '100%',
     margin: 0,
     marginBottom: '5%',
-    backgroundColor: 'white',
   },
   footer: {
     textAlign: 'center',
