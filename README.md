@@ -6,7 +6,7 @@
 </h1>
 
 <div align="center">
-  TOOLY
+  theSTORYshop
   <br />
   <a href="#about"><strong>Explore the screenshots »</strong></a>
   <br />
@@ -45,7 +45,7 @@
 - [Authors & contributors](#authors--contributors)
 - [Security](#security)
 - [License](#license)
-- [Coding music](#codingmusic)
+- [Coding music](#coding-music)
 
 </details>
 
@@ -53,7 +53,7 @@
 
 ## About
 
-> Try the demo here: 
+> Try the demo here: https://thestoryshop-27v0cpusf-yoelmartinfornieles.vercel.app/
 
 > This is a project of an ecommerce.
 > I choose to make a comic-book shop because... well, who wouldn't like to have a comic shop?
