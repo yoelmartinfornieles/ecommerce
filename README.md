@@ -35,7 +35,6 @@
 - [About](#about)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
 - [Roadmap](#roadmap)
@@ -128,18 +127,18 @@ See the [open issues](https://github.com/yoelmartinfornieles/ecommerce/issues) f
 
 Reach out to the maintainer at one of the following places:
 
-- [GitHub issues](https://github.com/yoelmartinfornieles/prj-toolsharing-back/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)
+- [GitHub issues](https://github.com/yoelmartinfornieles/ecommerce/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)
 - The email which is located [in GitHub profile](https://github.com/yoelmartinfornieles)
 
 ## Project assistance
 
-If you want to say **thank you** or/and support active development of Tooly:
+If you want to say **thank you** or/and support active development of theSTORYshop:
 
-- Add a [GitHub Star](https://github.com/yoelmartinfornieles/prj-toolsharing-back) to the project.
-- Tweet about the PROJECT_NAME on your Twitter.
+- Add a [GitHub Star](https://github.com/yoelmartinfornieles/ecommerce) to the project.
+- Tweet about theSTORYshop on your Twitter.
 - Write interesting articles about the project on [Dev.to](https://dev.to/), [Medium](https://medium.com/) or personal blog.
 
-Together, we can make Tooly **better**!
+Together, we can make theSTORYshop **better**!
 
 ## Contributing
 
@@ -151,14 +150,14 @@ Thank you for being involved!
 
 ## Authors & contributors
 
-The original setup of this repository is by The Tooly team inc.
+The original setup of this repository is by Yoel Martin Fornieles.
 
-For a full list of all authors and contributors, check [the contributor's page](https://github.com/yoelmartinfornieles/prj-toolsharing-back/contributors).
+For a full list of all authors and contributors, check [the contributor's page](https://github.com/yoelmartinfornieles/ecommerce/contributors).
 
 ## Security
 
-Tooly follows good practices of security, but 100% security can't be granted in software.
-Tooly is provided **"as is"** without any **warranty**. Use at your own risk.
+theSTORYshop follows good practices of security, but 100% security can't be granted in software.
+theSTORYshop is provided **"as is"** without any **warranty**. Use at your own risk.
 
 _For more info, please refer to the [security](docs/SECURITY.md)._
 
@@ -171,5 +170,9 @@ See [LICENSE](LICENSE) for more information.
 ## Coding music
 
 Coded listening to: https://www.youtube.com/watch?v=uNulhfvsY2I
+
+<video width="320" height="240" controls>
+  <source src="https://www.youtube.com/watch?v=uNulhfvsY2I" type="video/mp4">
+</video>
 
 
