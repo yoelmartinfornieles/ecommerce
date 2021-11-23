@@ -14,12 +14,12 @@ import {
   Button,
 } from '@material-ui/core';
 import useStyles from '../../utils/styles';
+import Product from '../../models/Product';
+import db from '../../utils/db';
 
-export default function ProductScreen() {
-  const classes = useStyles(); 
-  const router = useRouter();
-  const { slug } = router.query;
-  const product = data.products.find((p) => p.slug === slug);
+export default function ProductScreen(props) {
+  const { product } = props;
+  const classes = useStyles();
   if (!product) {
     return <div>Product not found!</div>;
   }
@@ -110,16 +110,16 @@ export default function ProductScreen() {
         </Grid>
       </Grid>
     </Layout>
-    /* 		<div>
-			<h1>{product.name}</h1>
-			<h6>{product.category}</h6>
-			<h5>${product.price}</h5>
-			<h3>{product.editor}</h3>
-			<h3>{product.authors}</h3>
-			<p>{product.description}</p>
-			<h4>{product.rating}</h4>
-			<h4>{product.numReviews}</h4>
-			<h4>{product.countInStock}</h4>
-		</div> */
   );
+}
+
+export async function getServerSideProps(context) {
+  const { params } = context;
+  const { slug } = params;
+  await db.connect();
+  const product = await Product.findOne({ slug }).lean();
+  db.disconnect();
+  return {
+    props: { product: db.convertDocToPojo(product) },
+  };
 }
