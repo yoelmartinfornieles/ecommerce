@@ -171,7 +171,7 @@ See [LICENSE](LICENSE) for more information.
 
 Coded listening to:
 
-[![3 AM Coding Session - Lofi Hip Hop Mix](https://i.ytimg.com/vi/_ITiwPMUzho/maxresdefault.jpg)](https://www.youtube.com/watch?v=uNulhfvsY2I)
+[![3 AM Coding Session - Lofi Hip Hop Mix](https://github.com/yoelmartinfornieles/ecommerce/blob/main/docs/listening%20to.png?raw=true)](https://www.youtube.com/watch?v=uNulhfvsY2I)
 
 
 
