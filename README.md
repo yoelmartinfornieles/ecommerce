@@ -169,10 +169,9 @@ See [LICENSE](LICENSE) for more information.
 
 ## Coding music
 
-Coded listening to: https://www.youtube.com/watch?v=uNulhfvsY2I
+Coded listening to:
 
-<iframe width="320" height="240" controls>
-  <source src="https://www.youtube.com/watch?v=uNulhfvsY2I" type="video/mp4">
-</iframe>
+[![3 AM Coding Session - Lofi Hip Hop Mix](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=uNulhfvsY2I)
+
 
 
