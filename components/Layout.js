@@ -44,11 +44,7 @@ export default function Layout({ title, description, children }) {
     <div>
       <Head>
         <title>{title ? `${title} - theSTORYshop` : `theSTORYshop`}</title>
-        {description && (
-          <meta name="description" content={description}>
-            {' '}
-          </meta>
-        )}
+        {description && <meta name="description" content={description} />}
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
@@ -69,9 +65,11 @@ export default function Layout({ title, description, children }) {
                 <Link>
                   {cart.cartItems.length > 0 ? (
                     <Badge
-                    color="secondary"
+                      color="secondary"
                       badgeContent={cart.cartItems.length}
-                    >Cart</Badge>
+                    >
+                      Cart
+                    </Badge>
                   ) : (
                     'Cart'
                   )}
