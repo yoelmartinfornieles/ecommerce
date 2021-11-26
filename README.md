@@ -6,7 +6,8 @@
 </h1>
 
 <div align="center">
-  theSTORYshop
+  <img src="https://user-images.githubusercontent.com/65562487/143292542-7ca5c0a9-4474-48d0-938f-e8dd14635ec0.png"></img>
+  <!-- created with https://reheader.glitch.me/home -->
   <br />
   <a href="#about"><strong>Explore the screenshots »</strong></a>
   <br />
@@ -84,6 +85,7 @@
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
 <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
 <a href="https://nextjs.org/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-3.svg" alt="nextjs" width="40" height="40"/> </a>  
+<a href="https://axios-http.com/docs/intro" target="_blank"> <img src="https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png" alt="axios" width="40" height="40"/> </a>  
 <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> 
 <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
 <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
@@ -169,9 +171,10 @@ See [LICENSE](LICENSE) for more information.
 
 ## Coding music
 
-Coded listening to:
+<details>
+<summary>Coded listening to:</summary>
 
-[![3 AM Coding Session - Lofi Hip Hop Mix](https://i.ytimg.com/vi/_ITiwPMUzho/maxresdefault.jpg)](https://www.youtube.com/watch?v=uNulhfvsY2I)
+[![3 AM Coding Session - Lofi Hip Hop Mix](https://github.com/yoelmartinfornieles/ecommerce/blob/main/docs/listening%20to.png?raw=true)](https://www.youtube.com/watch?v=uNulhfvsY2I)
 
-
+</details>
 
